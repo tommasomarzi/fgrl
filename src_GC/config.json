@@ -1,0 +1,42 @@
+{
+  "simulation":
+  {
+    "exp_id": 1,
+    "results_dir": "./results",
+    "seed":
+    {
+      "custom_seed": false,
+      "custom_seed_value": 1
+    },
+    "num_episodes": 100,
+    "eval_episodes_freq": 1,
+    "use_baseline": [true, "MLP"]
+  },
+  "optimizer":
+  {
+    "sigma_init": 0.25,
+    "pop_size": 64
+  },
+  "utilities":
+  {
+    "multiprocessing": [false, 1]
+  },
+  "policy":
+  {
+    "hier_levels": 3,
+    "mp_rounds": 2,
+    "architecture": "fc",
+    "goal_scale": [true, [5, 10]],
+    "hyperparameters":
+    {
+      "internal_dim": [30],
+      "initial_repr_out": [20, 20, 20]
+    }
+  },
+  "environment":
+  {
+    "n_connected_comp": 2,
+    "nodes_per_cc": 10,
+    "max_episode_steps": 50
+  }
+}
