@@ -2,7 +2,7 @@
 
 [![TMLR](https://img.shields.io/badge/TMLR-Openreview-blue.svg?style=flat-square)](https://openreview.net/forum?id=wFcyJTik90)
 [![PDF](https://img.shields.io/badge/%E2%87%A9-PDF-orange.svg?style=flat-square)](https://openreview.net/pdf?id=wFcyJTik90)
-[![arXiv](https://img.shields.io/badge/arXiv-2303.14681-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2304.05099)
+[![arXiv](https://img.shields.io/badge/arXiv-2304.05099-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2304.05099)
 
 This repository contains the code for the paper Feudal Graph Reinforcement Learning (TMLR).
 
